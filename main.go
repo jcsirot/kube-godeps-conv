@@ -20,7 +20,7 @@ var (
 		`Kubernetes version for which dependencies have to be converted into a Gopkg.toml`)
 
 	kubeDeps = []string{
-		"apiextensions-apiserver", "apimachinery", "client-go", "api", "apiserver", "metrics", "kube-aggregator",
+		"apiextensions-apiserver", "apimachinery", "client-go", "api", "apiserver", "metrics", "kube-aggregator", "sample-apiserver",
 	}
 )
 
